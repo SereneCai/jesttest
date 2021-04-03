@@ -17,6 +17,12 @@ test('should show hello my friend', ()=>{
 //testing uppercase
 
 test('should show HELLO WILLIAM!!!', ()=>{
-    expect(greet('WILLIAM')).toBe('HELLO, WILLIAM!!!');
+    expect(greet('WILLIAM')).toBe('HELLO, WILLIAM!');
 })
+
+//testing more than 1 person
+test('should show Hello Jane and Ben', ()=>{
+    expect(greet(['Jane', 'Ben'])).toBe('Hello Jane and Ben');
+})
+
 
