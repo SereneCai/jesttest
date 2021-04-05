@@ -20,9 +20,14 @@ test('should show HELLO WILLIAM!!!', ()=>{
     expect(greet('WILLIAM')).toBe('HELLO, WILLIAM!');
 })
 
-//testing more than 1 person
+//testing 2 person
 test('should show Hello Jane and Ben', ()=>{
     expect(greet(['Jane', 'Ben'])).toBe('Hello Jane and Ben');
+})
+
+//testing 3
+test('should show Hello Jane and Ben', ()=>{
+    expect(greet(['Jane', 'Ben', 'Grace'])).toBe('Hello Jane, Ben and Grace');
 })
 
 
