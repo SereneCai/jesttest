@@ -22,12 +22,12 @@ test('should show HELLO WILLIAM!!!', ()=>{
 
 //testing 2 person
 test('should show Hello Jane and Ben', ()=>{
-    expect(greet(['Jane', 'Ben'])).toBe('Hello Jane and Ben');
+    expect(greet(['Jane', 'Ben'])).toBe('Hello, Jane and Ben');
 })
 
 //testing 3
 test('should show Hello Jane and Ben', ()=>{
-    expect(greet(['Jane', 'Ben', 'Grace'])).toBe('Hello Jane, Ben and Grace');
+    expect(greet(['Jane', 'Ben', 'Grace'])).toBe('Hello, Jane, Ben and Grace');
 })
 
 
